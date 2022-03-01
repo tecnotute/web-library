@@ -1,0 +1,96 @@
+/* toggle classes on click to make navbar responsive */
+
+
+/* .un_responsive-navbar {
+    height: max-content;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+} */
+
+@media screen and (max-width: 425px) {
+    .un_responsive-navbar {
+        height: 4rem;
+        /* transition-duration: 500ms; */
+        /* transition-timing-function: ease-in-out; */
+    }
+}
+
+.responsive-navbar {
+    height: calc(18rem - 1rem);
+    /* transition-duration: 500ms; */
+    /* transition-timing-function: ease-in-out; */
+}
+
+
+/* for customs cards in index.html */
+
+.card-para::first-letter {
+    color: rgb(239, 68, 68, .9);
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+/* to hide scroll bar */
+
+.scroll-hidden::-webkit-scrollbar {
+    height: 0px;
+    background: transparent;
+}
+
+
+/* custom owl carousel   */
+
+.owl-nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 13.5rem;
+    color: white;
+    font-size: 2.5rem;
+    /* font-weight: 100; */
+    margin: 0 1rem;
+}
+
+.owl-nav:hover {
+    background: none;
+}
+
+
+/* styling of carousel dots navigation */
+
+.owl-dots {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 7rem;
+}
+
+
+/* styling for the owl items in the top of the header links :) */
+
+#owl-links .owl-item {
+    border-right: 1px solid #232c3b;
+    text-align: center;
+}
+
+
+/* styling for the owl work id to set dots and navigaton */
+
+#carousel-work .owl-dots {
+    bottom: 0rem;
+}
+
+
+/* #carousel-work .owl-nav {
+    font-size: 1.7rem;
+    margin: 0 -2rem;
+    position: inherit;
+} */
+
+
+/* Code output section styles for changing scrollbar :) */
+
+#CodeOutput::-webkit-scrollbar {
+    width: 1rem;
+}
